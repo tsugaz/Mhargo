@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Mhargo/Mhargo.vcxproj" />
+  <Project Path="Mhargo/Mhargo.vcxproj" Id="be84ca88-9764-4f3b-b77e-ee8273c6a9a3" />
 </Solution>
