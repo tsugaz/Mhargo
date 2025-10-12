@@ -24,12 +24,18 @@
     <ClCompile Include="FileReader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="regex.ixx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="regex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Symbol.h">
+    <ClInclude Include="Symbol.ixx">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="FileReader.h">
+    <ClInclude Include="FileReader.ixx">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,6 @@
-#pragma once
-class Symbol {
+export module Symbol;
+
+export class Symbol {
 public:
 	char* lable = 0;
 	enum symbolType { OPEATER, VARIABLE_NAME, INTEGER, FLOAT_DOUBLE, STRING, KEYWORD, DELIMITER, FUNCTION_NAME, BOOLEAN, CHAR, ARRAY, POINTER, STRUCT_CLASS, ENUM, NUL, COMMENT, NONE} type = NUL;

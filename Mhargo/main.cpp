@@ -1,5 +1,6 @@
-#include "FileReader.h"
-#include "Symbol.h"
+import Symbol;
+import FileReader;
+import regex;
 
 int main() {
 	

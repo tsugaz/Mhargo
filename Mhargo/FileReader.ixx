@@ -1,8 +1,10 @@
-#pragma once
+export module FileReader;
+
+import std;
+import Symbol;
 #include <cstdio>
-#include <vector>
-#include "Symbol.h"
-class FileReader {
+
+export class FileReader {
 public:
 	FileReader(const char* filename) {
 		fopen_s(&file, filename, "r");

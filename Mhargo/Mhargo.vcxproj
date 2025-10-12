@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="FileReader.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="regex.cpp" />
+    <ClCompile Include="regex.ixx" />
     <ClCompile Include="Symbol.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FileReader.h" />
-    <ClInclude Include="Symbol.h" />
+    <ClInclude Include="FileReader.ixx" />
+    <ClInclude Include="Symbol.ixx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,5 @@
-#include "FileReader.h"
+module;
+module FileReader;
 
 unsigned int FileReader::readWord()
 {
