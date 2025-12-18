@@ -1,0 +1,8 @@
+#ifndef STDTYPE_MHARGO_MHARGOSTANDARDTYPE_H_
+#define STDTYPE_MHARGO_MHARGOSTANDARDTYPE_H_
+
+namespace Mhargo::inline Standardtypes {
+
+}
+
+#endif // !STDTYPE_MHARGO_MHARGOSTANDARDTYPE_H_

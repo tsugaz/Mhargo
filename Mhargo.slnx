@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Mhargo/Mhargo.vcxproj" Id="e4398571-6974-4cb9-ad4d-853209115548" />
+</Solution>
