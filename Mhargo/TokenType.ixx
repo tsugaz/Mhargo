@@ -13,6 +13,11 @@ export namespace Mhargo::Tokens::inline types {
 		LEFT_ANGLE_BRACKET, RIGHT_ANGLE_BRACKET, COMMA, DOT, COLON, SEMICOLON, QUOTATION_MARK,
 		// Operators
 		ADD, SUBTRACT, MULTIPLY, DIVIDE, MODULO, ASSIGN, EQUALS, NOT_EQUALS, AND, OR, NOT, LESS_THAN, GREATER_THAN,
+		NULL
+	};
+
+	export enum class NumberType {
+		BINARY, OCTAL, DECIMAL, HEXADECIMAL, NULL
 	};
 
 	// Value Types Structures Of Numeric Types
@@ -159,6 +164,13 @@ export namespace Mhargo::Tokens::inline types {
 	private:
 		std::string value;
 		std::string tokenName;
+	};
+
+	class Token {
+	public:
+		TokenType type;
+		std::string tokenName;
+		Token(TokenType t, const std::string& name) : type(t), tokenName(name) {}
 	};
 
 }
