@@ -42,6 +42,12 @@ namespace Mhargo::LexicalAnalyzer {
 		return *token;
 	}
 
+	Mhargo::Tokens::Token stringLiteralAnalyzer(const std::string& lexeme, const std::string& tokenname) {
+		using namespace Mhargo::Tokens;
+		Token* token = new Token(types::TokenType::STRING, tokenname);
+		return *token;
+	}
+
 	// lexical analyzer main function
 	void lexicalAnalyzer( void ) {
 		std::string *lexicalUnit = new std::string;
