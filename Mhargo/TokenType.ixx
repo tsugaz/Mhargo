@@ -165,12 +165,14 @@ export namespace Mhargo::Tokens::inline types {
 		std::string value;
 		std::string tokenName;
 	};
+}
 
+export namespace Mhargo::Tokens {
 	class Token {
 	public:
 		TokenType type;
 		std::string tokenName;
+		std::string value;
 		Token(TokenType t, const std::string& name) : type(t), tokenName(name) {}
 	};
-
 }
